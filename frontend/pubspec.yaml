@@ -1,0 +1,53 @@
+name: schematics_ocr_frontend
+description: "A powerful cross-platform application for extracting and intelligently classifying text from PDF schematics."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.4
+  
+  # Navigation
+  go_router: ^13.1.0
+  
+  # Networking
+  dio: ^5.4.0
+  
+  # UI Components & Icons
+  cupertino_icons: ^1.0.6
+  flutter_animate: ^4.5.0
+  shimmer: ^3.0.0
+  percent_indicator: ^4.2.3
+  
+  # Utilities
+  file_picker: ^6.1.1
+  path_provider: ^2.1.2
+  shared_preferences: ^2.2.2
+  uuid: ^4.3.3
+  intl: ^0.19.0
+  url_launcher: ^6.2.4
+  highlight_text: ^1.8.0
+  
+  # Data Persistence
+  sqflite: ^2.3.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.8
+  riverpod_generator: ^2.3.9
+
+flutter:
+  uses-material-design: true
+  
+  # Fonts (Google Fonts can be added here or via package)
+  # assets:
+  #   - assets/images/

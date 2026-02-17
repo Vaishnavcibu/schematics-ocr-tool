@@ -1,6 +1,6 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const dotenv = require('dotenv');
 const path = require('path');
 const fs = require('fs');
 const logger = require('./config/logger');
@@ -9,8 +9,6 @@ const apiRoutes = require('./routes/api.routes');
 const errorHandler = require('./middleware/error.middleware');
 const maintenanceService = require('./services/maintenance.service');
 
-// Load environment variables
-dotenv.config();
 
 // Connect to MongoDB
 connectDB();
@@ -44,7 +42,7 @@ app.use('/api', apiRoutes);
 
 // Health Check
 app.get('/health', (req, res) => {
-    res.json({ status: 'OK', message: 'Schematics OCR Backend is running with MongoDB' });
+    res.json({ status: 'OK', message: 'Schematics OCR Backend is running' });
 });
 
 // Error Handler

@@ -16,7 +16,9 @@ class ClaudeService {
      */
     async classifyBatch(items, headings) {
         try {
+            console.log(`Classifying batch of ${items.length} items...`);
             const prompt = this.generatePrompt(items, headings);
+
 
             const response = await this.client.messages.create({
                 model: this.model,

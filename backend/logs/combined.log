@@ -1,0 +1,211 @@
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T16:28:41.843Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T16:28:41.853Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T16:28:45.507Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T16:29:33.396Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T16:29:33.402Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T16:29:35.231Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T16:30:33.403Z)","timestamp":"2026-02-16T16:30:33.418Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T16:30:33.708Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T16:33:15.265Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T16:33:15.272Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T16:33:16.677Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T16:34:15.271Z)","timestamp":"2026-02-16T16:34:15.271Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T16:34:15.371Z"}
+{"level":"error","message":"Upload controller error (MongoDB): Cannot destructure property 'mainHeadings' of 'req.validatedBody' as it is undefined.","stack":"TypeError: Cannot destructure property 'mainHeadings' of 'req.validatedBody' as it is undefined.\n    at uploadFile (D:\\AI Agents\\schematics-ocr-tool\\backend\\controllers\\upload.controller.js:15:17)\n    at Layer.handle [as handle_request] (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at validateUpload (D:\\AI Agents\\schematics-ocr-tool\\backend\\middleware\\validation.middleware.js:23:5)\n    at Layer.handle [as handle_request] (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at done (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\multer\\lib\\make-middleware.js:47:7)\n    at indicateDone (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\multer\\lib\\make-middleware.js:51:68)\n    at D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\multer\\lib\\make-middleware.js:157:11\n    at WriteStream.<anonymous> (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\multer\\storage\\disk.js:43:9)\n    at WriteStream.emit (node:events:530:35)\n    at finish (node:internal/streams/writable:955:10)\n    at node:internal/streams/writable:936:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2026-02-16T16:57:08.701Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T16:57:47.583Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T16:57:47.589Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T16:57:50.555Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T16:58:02.817Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T16:58:02.823Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T16:58:06.156Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T16:58:10.134Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T16:58:10.140Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T16:58:15.812Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T16:59:10.135Z)","timestamp":"2026-02-16T16:59:10.135Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T16:59:10.633Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T17:10:22.682Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T17:10:22.689Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T17:10:25.070Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T17:10:53.222Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T17:10:53.227Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T17:10:55.250Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T17:11:53.235Z)","timestamp":"2026-02-16T17:11:53.235Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T17:11:53.314Z"}
+{"level":"info","message":"Job created in MongoDB: 4aba1667-343d-4d86-9828-81f817eca659 for file S23 Ultra 5G - S918U Schematic.pdf","timestamp":"2026-02-16T17:16:00.739Z"}
+{"level":"info","message":"Starting pipeline for Job: 4aba1667-343d-4d86-9828-81f817eca659","timestamp":"2026-02-16T17:16:00.918Z"}
+{"level":"info","message":"Starting OCR for Job: 4aba1667-343d-4d86-9828-81f817eca659","timestamp":"2026-02-16T17:16:00.924Z"}
+{"level":"info","message":"Digital text detected for Job: 4aba1667-343d-4d86-9828-81f817eca659. Parsing directly...","timestamp":"2026-02-16T17:16:02.927Z"}
+{"level":"info","message":"Successfully extracted 20779 items for Job: 4aba1667-343d-4d86-9828-81f817eca659","timestamp":"2026-02-16T17:16:13.493Z"}
+{"level":"info","message":"Job 4aba1667-343d-4d86-9828-81f817eca659: Cleanup and Filtering stage...","timestamp":"2026-02-16T17:16:13.570Z"}
+{"level":"info","message":"Starting cleanup and filtering for Job: 4aba1667-343d-4d86-9828-81f817eca659","timestamp":"2026-02-16T17:16:13.572Z"}
+{"level":"info","message":"Cleanup complete for Job 4aba1667-343d-4d86-9828-81f817eca659: Removed 13113 duplicates, Filtered 2273 items.","timestamp":"2026-02-16T17:35:38.967Z"}
+{"level":"info","message":"Job 4aba1667-343d-4d86-9828-81f817eca659: AI Classification stage...","timestamp":"2026-02-16T17:35:39.113Z"}
+{"level":"error","message":"Claude API Error: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted","stack":"Error: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted\n    at Anthropic.validateHeaders (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\@anthropic-ai\\sdk\\index.js:92:15)\n    at Anthropic.buildHeaders (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\@anthropic-ai\\sdk\\core.js:242:14)\n    at Anthropic.buildRequest (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\@anthropic-ai\\sdk\\core.js:218:33)\n    at Anthropic.makeRequest (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\@anthropic-ai\\sdk\\core.js:274:44)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async ClaudeService.classifyBatch (D:\\AI Agents\\schematics-ocr-tool\\backend\\services\\claude.service.js:21:30)\n    at async JobProcessor.processJob (D:\\AI Agents\\schematics-ocr-tool\\backend\\services\\processor.js:63:56)","timestamp":"2026-02-16T17:35:42.120Z"}
+{"level":"error","message":"❌ Job 4aba1667-343d-4d86-9828-81f817eca659 failed: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted","stack":"Error: Could not resolve authentication method. Expected either apiKey or authToken to be set. Or for one of the \"X-Api-Key\" or \"Authorization\" headers to be explicitly omitted\n    at Anthropic.validateHeaders (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\@anthropic-ai\\sdk\\index.js:92:15)\n    at Anthropic.buildHeaders (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\@anthropic-ai\\sdk\\core.js:242:14)\n    at Anthropic.buildRequest (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\@anthropic-ai\\sdk\\core.js:218:33)\n    at Anthropic.makeRequest (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\@anthropic-ai\\sdk\\core.js:274:44)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async ClaudeService.classifyBatch (D:\\AI Agents\\schematics-ocr-tool\\backend\\services\\claude.service.js:21:30)\n    at async JobProcessor.processJob (D:\\AI Agents\\schematics-ocr-tool\\backend\\services\\processor.js:63:56)","timestamp":"2026-02-16T17:35:42.120Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T19:32:36.933Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T19:32:36.945Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T19:32:37.992Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T19:33:36.939Z)","timestamp":"2026-02-16T19:33:36.939Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T19:33:37.016Z"}
+{"level":"info","message":"Job created in MongoDB: 42f6c655-0f8a-4eb4-99ba-8b6b4a420b73 for file 20c34d39-ce57-4f4a-bf25-798b31d004e2.pdf","timestamp":"2026-02-16T19:33:45.393Z"}
+{"level":"info","message":"Starting pipeline for Job: 42f6c655-0f8a-4eb4-99ba-8b6b4a420b73","timestamp":"2026-02-16T19:33:45.559Z"}
+{"level":"info","message":"Starting OCR for Job: 42f6c655-0f8a-4eb4-99ba-8b6b4a420b73","timestamp":"2026-02-16T19:33:45.560Z"}
+{"level":"info","message":"Digital text detected for Job: 42f6c655-0f8a-4eb4-99ba-8b6b4a420b73. Parsing directly...","timestamp":"2026-02-16T19:33:46.697Z"}
+{"level":"info","message":"Successfully extracted 20779 items for Job: 42f6c655-0f8a-4eb4-99ba-8b6b4a420b73","timestamp":"2026-02-16T19:33:50.705Z"}
+{"level":"info","message":"Job 42f6c655-0f8a-4eb4-99ba-8b6b4a420b73: Cleanup and Filtering stage...","timestamp":"2026-02-16T19:33:50.798Z"}
+{"level":"info","message":"Starting cleanup and filtering for Job: 42f6c655-0f8a-4eb4-99ba-8b6b4a420b73","timestamp":"2026-02-16T19:33:50.799Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T19:34:02.074Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T19:34:02.086Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T19:34:03.240Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T19:35:02.079Z)","timestamp":"2026-02-16T19:35:02.079Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T19:35:02.154Z"}
+{"level":"info","message":"Deleted file: temp\\uploads\\c9f1e12e-6f64-4c66-8627-1cb1e056bfeb.pdf","timestamp":"2026-02-16T19:35:31.611Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T19:35:40.107Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T19:35:40.120Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T19:35:41.214Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T19:35:49.671Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T19:35:49.687Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T19:35:50.669Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T19:35:54.925Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T19:35:54.937Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T19:35:55.870Z"}
+{"level":"info","message":"Deleted file: temp\\uploads\\c6f30c8a-29bc-45c2-95f5-3ad9be71afba.pdf","timestamp":"2026-02-16T19:36:06.506Z"}
+{"level":"info","message":"Job created in MongoDB: f7196bb7-d613-4bc0-ac9f-69d2477665a2 for file 20c34d39-ce57-4f4a-bf25-798b31d004e2.pdf","timestamp":"2026-02-16T19:36:17.467Z"}
+{"level":"info","message":"Starting pipeline for Job: f7196bb7-d613-4bc0-ac9f-69d2477665a2","timestamp":"2026-02-16T19:36:17.647Z"}
+{"level":"info","message":"Starting OCR for Job: f7196bb7-d613-4bc0-ac9f-69d2477665a2","timestamp":"2026-02-16T19:36:17.660Z"}
+{"level":"info","message":"Digital text detected for Job: f7196bb7-d613-4bc0-ac9f-69d2477665a2. Parsing directly...","timestamp":"2026-02-16T19:36:18.768Z"}
+{"level":"info","message":"Successfully extracted 20779 items for Job: f7196bb7-d613-4bc0-ac9f-69d2477665a2","timestamp":"2026-02-16T19:36:23.148Z"}
+{"level":"info","message":"Job f7196bb7-d613-4bc0-ac9f-69d2477665a2: Cleanup and Filtering stage...","timestamp":"2026-02-16T19:36:23.242Z"}
+{"level":"info","message":"Starting cleanup and filtering for Job: f7196bb7-d613-4bc0-ac9f-69d2477665a2","timestamp":"2026-02-16T19:36:23.244Z"}
+{"level":"info","message":"Cleanup complete for Job f7196bb7-d613-4bc0-ac9f-69d2477665a2: Removed 13113 duplicates, Filtered 0 items.","timestamp":"2026-02-16T19:36:43.194Z"}
+{"level":"info","message":"Job f7196bb7-d613-4bc0-ac9f-69d2477665a2: AI Classification stage...","timestamp":"2026-02-16T19:36:45.309Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T19:36:54.929Z)","timestamp":"2026-02-16T19:36:54.929Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T19:36:55.007Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T19:37:28.615Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T19:37:28.629Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T19:37:29.642Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T19:37:53.241Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T19:37:53.255Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T19:37:54.228Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T19:38:24.429Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T19:38:24.445Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T19:38:25.696Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T19:39:24.434Z)","timestamp":"2026-02-16T19:39:24.442Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T19:39:24.517Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T19:50:48.360Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T19:50:48.375Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T19:50:49.617Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T19:51:24.045Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T19:51:24.060Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T19:51:25.020Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T19:52:24.056Z)","timestamp":"2026-02-16T19:52:24.056Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T19:52:24.133Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:01:59.450Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:01:59.463Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:02:00.538Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:02:10.398Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:02:10.411Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:02:11.336Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T20:03:10.412Z)","timestamp":"2026-02-16T20:03:10.413Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T20:03:10.505Z"}
+{"level":"info","message":"Job created in MongoDB: 5bc21963-134d-41e5-8d66-34cc1d3d7866 for file 20c34d39-ce57-4f4a-bf25-798b31d004e2.pdf","timestamp":"2026-02-16T20:05:07.598Z"}
+{"level":"info","message":"Starting pipeline for Job: 5bc21963-134d-41e5-8d66-34cc1d3d7866","timestamp":"2026-02-16T20:05:07.790Z"}
+{"level":"info","message":"Starting OCR for Job: 5bc21963-134d-41e5-8d66-34cc1d3d7866","timestamp":"2026-02-16T20:05:07.791Z"}
+{"level":"info","message":"Digital text detected for Job: 5bc21963-134d-41e5-8d66-34cc1d3d7866. Parsing directly...","timestamp":"2026-02-16T20:05:09.004Z"}
+{"level":"info","message":"Successfully extracted 20779 items for Job: 5bc21963-134d-41e5-8d66-34cc1d3d7866","timestamp":"2026-02-16T20:05:13.192Z"}
+{"level":"info","message":"Job 5bc21963-134d-41e5-8d66-34cc1d3d7866: Cleanup and Filtering stage...","timestamp":"2026-02-16T20:05:13.280Z"}
+{"level":"info","message":"Starting cleanup and filtering for Job: 5bc21963-134d-41e5-8d66-34cc1d3d7866","timestamp":"2026-02-16T20:05:13.280Z"}
+{"level":"info","message":"Cleanup complete for Job 5bc21963-134d-41e5-8d66-34cc1d3d7866: Removed 13113 duplicates, Filtered 0 items.","timestamp":"2026-02-16T20:05:41.286Z"}
+{"level":"info","message":"Job 5bc21963-134d-41e5-8d66-34cc1d3d7866: AI Classification stage...","timestamp":"2026-02-16T20:05:41.364Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:07:10.354Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:07:10.368Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:07:11.460Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T20:08:10.355Z)","timestamp":"2026-02-16T20:08:10.355Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T20:08:10.444Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:09:24.206Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:09:24.217Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:09:25.367Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T20:10:24.206Z)","timestamp":"2026-02-16T20:10:24.206Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T20:10:24.294Z"}
+{"level":"info","message":"Job created in MongoDB: df607ba2-a29d-4224-bb58-b51a8666e9aa for file 20c34d39-ce57-4f4a-bf25-798b31d004e2.pdf","timestamp":"2026-02-16T20:14:23.477Z"}
+{"level":"info","message":"Starting pipeline for Job: df607ba2-a29d-4224-bb58-b51a8666e9aa","timestamp":"2026-02-16T20:14:23.665Z"}
+{"level":"info","message":"Starting OCR for Job: df607ba2-a29d-4224-bb58-b51a8666e9aa","timestamp":"2026-02-16T20:14:23.667Z"}
+{"level":"info","message":"Digital text detected for Job: df607ba2-a29d-4224-bb58-b51a8666e9aa. Parsing directly...","timestamp":"2026-02-16T20:14:24.880Z"}
+{"level":"info","message":"Successfully extracted 20779 items for Job: df607ba2-a29d-4224-bb58-b51a8666e9aa","timestamp":"2026-02-16T20:14:29.440Z"}
+{"level":"info","message":"Job df607ba2-a29d-4224-bb58-b51a8666e9aa: Cleanup and Filtering stage...","timestamp":"2026-02-16T20:14:29.536Z"}
+{"level":"info","message":"Starting cleanup and filtering for Job: df607ba2-a29d-4224-bb58-b51a8666e9aa","timestamp":"2026-02-16T20:14:29.536Z"}
+{"level":"info","message":"Cleanup complete for Job df607ba2-a29d-4224-bb58-b51a8666e9aa: Removed 13113 duplicates, Filtered 0 items.","timestamp":"2026-02-16T20:14:53.333Z"}
+{"level":"info","message":"Job df607ba2-a29d-4224-bb58-b51a8666e9aa: AI Classification stage...","timestamp":"2026-02-16T20:14:53.409Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:15:42.317Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:15:42.328Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:15:43.502Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:15:57.522Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:15:57.539Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:15:58.497Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T20:16:57.538Z)","timestamp":"2026-02-16T20:16:57.538Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T20:16:57.616Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:18:15.320Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:18:15.333Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:18:16.414Z"}
+{"level":"info","message":"Job created in MongoDB: 0bea988c-56a2-47ed-b2f0-86d59e97008a for file 20c34d39-ce57-4f4a-bf25-798b31d004e2.pdf","timestamp":"2026-02-16T20:18:30.495Z"}
+{"level":"info","message":"Starting pipeline for Job: 0bea988c-56a2-47ed-b2f0-86d59e97008a","timestamp":"2026-02-16T20:18:30.665Z"}
+{"level":"info","message":"Starting OCR for Job: 0bea988c-56a2-47ed-b2f0-86d59e97008a","timestamp":"2026-02-16T20:18:30.666Z"}
+{"level":"info","message":"Digital text detected for Job: 0bea988c-56a2-47ed-b2f0-86d59e97008a. Parsing directly...","timestamp":"2026-02-16T20:18:31.905Z"}
+{"level":"info","message":"Successfully extracted 20779 items for Job: 0bea988c-56a2-47ed-b2f0-86d59e97008a","timestamp":"2026-02-16T20:18:36.261Z"}
+{"level":"info","message":"Job 0bea988c-56a2-47ed-b2f0-86d59e97008a: Cleanup and Filtering stage...","timestamp":"2026-02-16T20:18:36.345Z"}
+{"level":"info","message":"Starting cleanup and filtering for Job: 0bea988c-56a2-47ed-b2f0-86d59e97008a","timestamp":"2026-02-16T20:18:36.346Z"}
+{"level":"info","message":"Cleanup complete for Job 0bea988c-56a2-47ed-b2f0-86d59e97008a: Removed 13113 duplicates, Filtered 0 items.","timestamp":"2026-02-16T20:18:56.859Z"}
+{"level":"info","message":"Job 0bea988c-56a2-47ed-b2f0-86d59e97008a: AI Classification stage...","timestamp":"2026-02-16T20:18:56.931Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T20:19:15.323Z)","timestamp":"2026-02-16T20:19:15.323Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T20:19:15.395Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:22:18.585Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:22:18.599Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:22:19.756Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:22:28.263Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:22:28.277Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:22:29.217Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:23:01.690Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:23:01.701Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:23:02.671Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:23:25.571Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:23:25.581Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:23:26.683Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T20:24:25.577Z)","timestamp":"2026-02-16T20:24:25.577Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T20:24:25.677Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:25:01.722Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:25:01.734Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:25:02.823Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-16T20:25:24.264Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-16T20:25:24.283Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-16T20:25:25.216Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-18T20:26:24.274Z)","timestamp":"2026-02-16T20:26:24.274Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-16T20:26:24.387Z"}
+{"level":"info","message":"Job created in MongoDB: 9269151d-652f-45f3-9a31-ad046ff05570 for file S23 Ultra 5G - S918U Schematic.pdf","timestamp":"2026-02-16T20:26:26.283Z"}
+{"level":"info","message":"Starting pipeline for Job: 9269151d-652f-45f3-9a31-ad046ff05570","timestamp":"2026-02-16T20:26:26.489Z"}
+{"level":"info","message":"Starting OCR for Job: 9269151d-652f-45f3-9a31-ad046ff05570","timestamp":"2026-02-16T20:26:26.490Z"}
+{"level":"info","message":"Digital text detected for Job: 9269151d-652f-45f3-9a31-ad046ff05570. Parsing directly...","timestamp":"2026-02-16T20:26:29.510Z"}
+{"level":"info","message":"Successfully extracted 20779 items for Job: 9269151d-652f-45f3-9a31-ad046ff05570","timestamp":"2026-02-16T20:26:34.773Z"}
+{"level":"info","message":"Job 9269151d-652f-45f3-9a31-ad046ff05570: Cleanup and Filtering stage...","timestamp":"2026-02-16T20:26:34.862Z"}
+{"level":"info","message":"Starting cleanup and filtering for Job: 9269151d-652f-45f3-9a31-ad046ff05570","timestamp":"2026-02-16T20:26:34.863Z"}
+{"level":"info","message":"Cleanup complete for Job 9269151d-652f-45f3-9a31-ad046ff05570: Removed 13113 duplicates, Filtered 2273 items.","timestamp":"2026-02-16T20:26:59.530Z"}
+{"level":"info","message":"Job 9269151d-652f-45f3-9a31-ad046ff05570: AI Classification stage...","timestamp":"2026-02-16T20:27:00.474Z"}
+{"level":"info","message":"Job 9269151d-652f-45f3-9a31-ad046ff05570: Generating export files...","timestamp":"2026-02-16T20:42:48.057Z"}
+{"level":"info","message":"✅ Job 9269151d-652f-45f3-9a31-ad046ff05570 completed successfully in 988s","timestamp":"2026-02-16T20:42:54.558Z"}
+{"level":"info","message":"Maintenance: Scheduled cleanup task initialized (24h interval)","timestamp":"2026-02-17T06:14:08.368Z"}
+{"level":"info","message":"Server started on port 3000","timestamp":"2026-02-17T06:14:08.385Z"}
+{"level":"info","message":"✅ MongoDB Connected Successfully","timestamp":"2026-02-17T06:14:10.535Z"}
+{"level":"info","message":"Running auto-cleanup for jobs older than 90 days (Before 2025-11-19T06:15:08.375Z)","timestamp":"2026-02-17T06:15:08.377Z"}
+{"level":"info","message":"No old jobs found to clean up.","timestamp":"2026-02-17T06:15:08.497Z"}
+{"level":"info","message":"Job created in MongoDB: 9472eaab-f068-4871-9e1e-9a60f07aad04 for file S23 Ultra 5G - S918U Schematic.pdf","timestamp":"2026-02-17T07:13:24.023Z"}
+{"level":"info","message":"Starting pipeline for Job: 9472eaab-f068-4871-9e1e-9a60f07aad04","timestamp":"2026-02-17T07:13:24.227Z"}
+{"level":"info","message":"Starting OCR for Job: 9472eaab-f068-4871-9e1e-9a60f07aad04","timestamp":"2026-02-17T07:13:24.232Z"}
+{"level":"info","message":"Digital text detected for Job: 9472eaab-f068-4871-9e1e-9a60f07aad04. Parsing directly...","timestamp":"2026-02-17T07:13:26.346Z"}
+{"level":"info","message":"Successfully extracted 20779 items for Job: 9472eaab-f068-4871-9e1e-9a60f07aad04","timestamp":"2026-02-17T07:13:40.093Z"}
+{"level":"info","message":"Job 9472eaab-f068-4871-9e1e-9a60f07aad04: Cleanup and Filtering stage...","timestamp":"2026-02-17T07:13:40.233Z"}
+{"level":"info","message":"Starting cleanup and filtering for Job: 9472eaab-f068-4871-9e1e-9a60f07aad04","timestamp":"2026-02-17T07:13:40.234Z"}
+{"level":"info","message":"Cleanup complete for Job 9472eaab-f068-4871-9e1e-9a60f07aad04: Removed 13113 duplicates, Filtered 2813 items.","timestamp":"2026-02-17T07:14:16.657Z"}
+{"level":"info","message":"Job 9472eaab-f068-4871-9e1e-9a60f07aad04: AI Classification stage...","timestamp":"2026-02-17T07:14:16.759Z"}
+{"level":"info","message":"Job 9472eaab-f068-4871-9e1e-9a60f07aad04: Generating export files...","timestamp":"2026-02-17T07:28:07.515Z"}
+{"level":"error","message":"Excel Export Error: Worksheet name CHNJPN : B8682 cannot include any of the following characters: * ? : \\ / [ ]","stack":"Error: Worksheet name CHNJPN : B8682 cannot include any of the following characters: * ? : \\ / [ ]\n    at set name (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\exceljs\\lib\\doc\\worksheet.js:156:13)\n    at new Worksheet (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\exceljs\\lib\\doc\\worksheet.js:30:15)\n    at Workbook.addWorksheet (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\exceljs\\lib\\doc\\workbook.js:89:23)\n    at ExportService.generateExcel (D:\\AI Agents\\schematics-ocr-tool\\backend\\services\\export.service.js:93:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async JobProcessor.processJob (D:\\AI Agents\\schematics-ocr-tool\\backend\\services\\processor.js:89:21)","timestamp":"2026-02-17T07:28:11.699Z"}
+{"level":"error","message":"Export generation failed for job 9472eaab-f068-4871-9e1e-9a60f07aad04: Worksheet name CHNJPN : B8682 cannot include any of the following characters: * ? : \\ / [ ]","stack":"Error: Worksheet name CHNJPN : B8682 cannot include any of the following characters: * ? : \\ / [ ]\n    at set name (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\exceljs\\lib\\doc\\worksheet.js:156:13)\n    at new Worksheet (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\exceljs\\lib\\doc\\worksheet.js:30:15)\n    at Workbook.addWorksheet (D:\\AI Agents\\schematics-ocr-tool\\backend\\node_modules\\exceljs\\lib\\doc\\workbook.js:89:23)\n    at ExportService.generateExcel (D:\\AI Agents\\schematics-ocr-tool\\backend\\services\\export.service.js:93:40)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async JobProcessor.processJob (D:\\AI Agents\\schematics-ocr-tool\\backend\\services\\processor.js:89:21)","timestamp":"2026-02-17T07:28:11.701Z"}
+{"level":"info","message":"✅ Job 9472eaab-f068-4871-9e1e-9a60f07aad04 completed successfully in 887s","timestamp":"2026-02-17T07:28:11.794Z"}

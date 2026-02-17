@@ -26,6 +26,8 @@ class CleanupService {
             const tpRegexes = testPointFilters.map(f => this.patternToRegex(f, regexMode));
             const compRegexes = componentFilters.map(f => this.patternToRegex(f, regexMode));
 
+            const bulkOps = [];
+
             for (const item of items) {
                 const cleanText = item.text.trim();
                 const hash = crypto.createHash('md5').update(cleanText).digest('hex');
@@ -58,18 +60,37 @@ class CleanupService {
                     if (isFiltered) filteredCount++;
                 }
 
-                // Update item in database
+                // Prepare bulk update if changed
                 if (isDuplicate || isFiltered) {
-                    await ExtractedItem.findByIdAndUpdate(item._id, {
-                        'flags.isDuplicate': isDuplicate,
-                        'flags.isFiltered': isFiltered,
-                        'flags.filterReason': filterReason
+                    bulkOps.push({
+                        updateOne: {
+                            filter: { _id: item._id },
+                            update: {
+                                $set: {
+                                    'flags.isDuplicate': isDuplicate,
+                                    'flags.isFiltered': isFiltered,
+                                    'flags.filterReason': filterReason
+                                }
+                            }
+                        }
                     });
                 }
+
+                // Perform bulk write in chunks of 500
+                if (bulkOps.length >= 500) {
+                    await ExtractedItem.bulkWrite(bulkOps);
+                    bulkOps.length = 0;
+                }
+            }
+
+            // Perform final bulk write
+            if (bulkOps.length > 0) {
+                await ExtractedItem.bulkWrite(bulkOps);
             }
 
             logger.info(`Cleanup complete for Job ${jobId}: Removed ${duplicatesRemoved} duplicates, Filtered ${filteredCount} items.`);
             return { duplicatesRemoved, filteredCount };
+
 
         } catch (error) {
             logger.error('Cleanup Service Error:', error);

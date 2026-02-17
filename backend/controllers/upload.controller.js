@@ -14,17 +14,20 @@ const uploadFile = async (req, res) => {
 
         const { mainHeadings, testPointFilters, componentFilters, regexMode } = req.validatedBody;
 
+        // Parse strings into arrays and boolean
+        const parsedConfig = {
+            mainHeadings: mainHeadings.split(',').map(s => s.trim()).filter(s => s.length > 0),
+            testPointFilters: testPointFilters ? testPointFilters.split(',').map(s => s.trim()).filter(s => s.length > 0) : [],
+            componentFilters: componentFilters ? componentFilters.split(',').map(s => s.trim()).filter(s => s.length > 0) : [],
+            regexMode: regexMode === 'true'
+        };
+
         // Create a new processing job using Mongoose
         const job = new Job({
             jobId: uuidv4(),
             filename: req.file.originalname,
             fileSize: req.file.size,
-            config: {
-                mainHeadings,
-                testPointFilters,
-                componentFilters,
-                regexMode
-            },
+            config: parsedConfig,
             paths: {
                 pdfPath: req.file.path
             },

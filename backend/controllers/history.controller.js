@@ -49,7 +49,12 @@ class HistoryController {
     async deleteJob(req, res) {
         try {
             const { job_id } = req.params;
+            const allJobs = await Job.find({});
+            console.log('All IDs in DB:', allJobs.map(j => j.jobId));
+            console.log('Attempting to delete job with ID:', job_id);
             const job = await Job.findOne({ jobId: job_id });
+
+            console.log('Job found:', job ? 'Yes' : 'No');
 
             if (!job) {
                 return res.status(404).json({
